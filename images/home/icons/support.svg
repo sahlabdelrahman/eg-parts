@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55.999" height="55.999" viewBox="0 0 55.999 55.999">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#70b63e}
+        </style>
+    </defs>
+    <g id="prefix__support" transform="translate(0 -.001)">
+        <g id="prefix__Group_60" data-name="Group 60" transform="translate(0 16.078)">
+            <g id="prefix__Group_59" data-name="Group 59">
+                <path id="prefix__Path_218" d="M26.672 170.769l-1.2 4.359a21.146 21.146 0 0 1-13.682-13.681l4.359-1.2V147H0v8.075a31.847 31.847 0 0 0 31.847 31.847h8.075v-16.153zm9.968 12.868h-4.793A28.566 28.566 0 0 1 3.281 155.07v-4.793h9.586v7.469L7.81 159.14l.365 1.54a24.4 24.4 0 0 0 18.064 18.064l1.54.365 1.394-5.058h7.469v9.586z" class="prefix__cls-1" data-name="Path 218" transform="translate(0 -146.996)"/>
+            </g>
+        </g>
+        <g id="prefix__Group_62" data-name="Group 62" transform="translate(8.201 .001)">
+            <g id="prefix__Group_61" data-name="Group 61">
+                <path id="prefix__Path_219" d="M114.578 8.2a28 28 0 0 0-39.6 0l2.32 2.32a24.718 24.718 0 0 1 34.957 34.957l2.32 2.32a28 28 0 0 0 0-39.6z" class="prefix__cls-1" data-name="Path 219" transform="translate(-74.981 -.001)"/>
+            </g>
+        </g>
+        <g id="prefix__Group_64" data-name="Group 64" transform="translate(22.13 14.988)">
+            <g id="prefix__Group_63" data-name="Group 63">
+                <path id="prefix__Path_220" d="M205.622 150.164v-3.287h6.568v-9.849h-9.851v3.281h6.569v3.291h-6.568v9.849h9.851v-3.281z" class="prefix__cls-1" data-name="Path 220" transform="translate(-202.339 -137.028)"/>
+            </g>
+        </g>
+        <g id="prefix__Group_66" data-name="Group 66" transform="translate(35.268 14.987)">
+            <g id="prefix__Group_65" data-name="Group 65">
+                <path id="prefix__Path_221" d="M329.02 137.016v6.569h-3.287v-6.569h-3.281v9.851h6.568v6.569h3.28v-16.42z" class="prefix__cls-1" data-name="Path 221" transform="translate(-322.452 -137.016)"/>
+            </g>
+        </g>
+    </g>
+</svg>

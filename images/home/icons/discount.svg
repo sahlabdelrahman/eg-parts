@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55.668" height="55.668" viewBox="0 0 55.668 55.668">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#70b63e}
+        </style>
+    </defs>
+    <g id="prefix__discount" transform="translate(-.001)">
+        <g id="prefix__Group_84" data-name="Group 84" transform="translate(.001 .001)">
+            <g id="prefix__Group_83" data-name="Group 83">
+                <path id="prefix__Path_229" d="M55.191.478a1.631 1.631 0 0 0-2.307 0l-4.75 4.75a4.9 4.9 0 0 0-.922-.332L32.451 1.25A4.918 4.918 0 0 0 27.8 2.537L1.432 28.866a4.9 4.9 0 0 0 0 6.92l18.452 18.451a4.9 4.9 0 0 0 6.92 0l26.329-26.372a4.917 4.917 0 0 0 1.287-4.647L50.773 8.457a4.915 4.915 0 0 0-.332-.922l4.75-4.75a1.631 1.631 0 0 0 0-2.307zM51.255 24.01a1.639 1.639 0 0 1-.429 1.549L24.5 51.931a1.633 1.633 0 0 1-2.307 0L3.738 33.479a1.633 1.633 0 0 1 0-2.307L30.111 4.843a1.64 1.64 0 0 1 1.157-.477 1.617 1.617 0 0 1 .392.048l13.865 3.423-3.925 3.928a4.893 4.893 0 1 0 2.3 2.307l3.928-3.928zm-10.612-6.677a1.63 1.63 0 1 1 0-2.307 1.633 1.633 0 0 1 0 2.307z" class="prefix__cls-1" data-name="Path 229" transform="translate(-.001 -.001)"/>
+            </g>
+        </g>
+        <g id="prefix__Group_86" data-name="Group 86" transform="translate(18.453 18.209)">
+            <g id="prefix__Group_85" data-name="Group 85">
+                <path id="prefix__Path_230" d="M178.063 168.9a4.893 4.893 0 1 0 0 6.92 4.9 4.9 0 0 0 0-6.92zm-2.306 4.613a1.631 1.631 0 1 1 0-2.307 1.633 1.633 0 0 1-.001 2.308z" class="prefix__cls-1" data-name="Path 230" transform="translate(-169.712 -167.471)"/>
+            </g>
+        </g>
+        <g id="prefix__Group_88" data-name="Group 88" transform="translate(20.76 34.351)">
+            <g id="prefix__Group_87" data-name="Group 87">
+                <path id="prefix__Path_231" d="M199.276 317.371a4.893 4.893 0 1 0 0 6.92 4.89 4.89 0 0 0 0-6.92zm-2.307 4.613a1.631 1.631 0 1 1 0-2.307 1.63 1.63 0 0 1 .001 2.307z" class="prefix__cls-1" data-name="Path 231" transform="translate(-190.926 -315.937)"/>
+            </g>
+        </g>
+        <g id="prefix__Group_90" data-name="Group 90" transform="translate(12.487 28.388)">
+            <g id="prefix__Group_89" data-name="Group 89">
+                <path id="prefix__Path_232" d="M138.846 262.542a1.631 1.631 0 0 0-1.8-1.441l-20.759 2.306a1.631 1.631 0 0 0 .178 3.252 1.661 1.661 0 0 0 .182-.01l20.759-2.306a1.631 1.631 0 0 0 1.44-1.801z" class="prefix__cls-1" data-name="Path 232" transform="translate(-114.835 -261.091)"/>
+            </g>
+        </g>
+    </g>
+</svg>

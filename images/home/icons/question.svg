@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__question" width="15.667" height="15.667" viewBox="0 0 15.667 15.667">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#6c6b6c}
+        </style>
+    </defs>
+    <g id="prefix__Group_4" data-name="Group 4">
+        <g id="prefix__Group_3" data-name="Group 3">
+            <circle id="prefix__Ellipse_6" cx=".765" cy=".765" r=".765" class="prefix__cls-1" data-name="Ellipse 6" transform="translate(7.068 10.817)"/>
+            <path id="prefix__Path_198" d="M7.833 0a7.833 7.833 0 1 0 7.833 7.833A7.829 7.829 0 0 0 7.833 0zm0 14.443a6.609 6.609 0 1 1 6.609-6.609 6.606 6.606 0 0 1-6.609 6.609z" class="prefix__cls-1" data-name="Path 198"/>
+            <path id="prefix__Path_199" d="M178.448 128.5a2.451 2.451 0 0 0-2.448 2.448.612.612 0 0 0 1.224 0 1.224 1.224 0 1 1 1.224 1.224.612.612 0 0 0-.612.612v1.53a.612.612 0 0 0 1.224 0v-1a2.448 2.448 0 0 0-.612-4.818z" class="prefix__cls-1" data-name="Path 199" transform="translate(-170.615 -124.568)"/>
+        </g>
+    </g>
+</svg>
