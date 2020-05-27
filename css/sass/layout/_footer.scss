@@ -36,6 +36,9 @@ footer {
                     &::placeholder {
                         color: #fff;
                     }
+                    @media (min-width: 1200px) and (max-width: 1457px) {
+                        width: 180px;
+                    }
                 }
                 input[type='submit'] {
                     width: 136px;
@@ -48,6 +51,9 @@ footer {
                     @media #{$maxSmall} {
                         width: 221px;
                         margin-top: 20px;
+                    }
+                    @media (min-width: 1200px) and (max-width: 1457px) {
+                        width: 115px;
                     }
                 }
             }
@@ -75,6 +81,9 @@ footer {
                     height: 38.5px;
                     @media #{$maxSmall} {
                         margin-bottom: 20px;
+                    }
+                    @media (min-width: 1200px) and (max-width: 1457px) {
+                        width: 115px;
                     }
                 }
             }

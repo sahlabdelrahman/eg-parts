@@ -960,6 +960,11 @@ footer .info .newsletter form input[type=email] {
 footer .info .newsletter form input[type=email]::placeholder {
   color: #fff;
 }
+@media (min-width: 1200px) and (max-width: 1457px) {
+  footer .info .newsletter form input[type=email] {
+    width: 180px;
+  }
+}
 footer .info .newsletter form input[type=submit] {
   width: 136px;
   height: 45px;
@@ -973,6 +978,11 @@ footer .info .newsletter form input[type=submit] {
   footer .info .newsletter form input[type=submit] {
     width: 221px;
     margin-top: 20px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1457px) {
+  footer .info .newsletter form input[type=submit] {
+    width: 115px;
   }
 }
 @media (max-width: 767px) {
@@ -1000,6 +1010,11 @@ footer .info .get-app .get-images img {
 @media (max-width: 767px) {
   footer .info .get-app .get-images img {
     margin-bottom: 20px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1457px) {
+  footer .info .get-app .get-images img {
+    width: 115px;
   }
 }
 @media (max-width: 767px) {
