@@ -6,6 +6,13 @@
 body {
   background-color: #fafafa;
 }
+body .container {
+  max-width: 90% !important;
+}
+body .sub-container {
+  max-width: 85% !important;
+  margin: auto;
+}
 body a {
   text-decoration: none;
 }
@@ -16,64 +23,81 @@ body a {
 */
 header {
   background-color: #FFF;
-  padding: 30px 0;
+  padding: 25.5px 0;
 }
-header .modfied-container {
-  max-width: 1630px;
-}
-header .modfied-container .upper-bar ul {
+header .upper-bar ul {
   display: flex;
   justify-content: flex-end;
   margin-bottom: 0;
 }
-@media screen {
-  header .modfied-container .upper-bar ul {
-    justify-content: center;
-  }
+header .upper-bar ul li {
+  margin-right: 17px;
 }
-header .modfied-container .upper-bar ul li {
-  margin-right: 20px;
-}
-header .modfied-container .upper-bar ul li a {
+header .upper-bar ul li a {
   text-decoration: none;
   text-transform: uppercase;
   font-family: Arial;
-  font-size: 16px;
+  font-size: 13.5px;
+  font-weight: 600;
   line-height: 1.31;
   text-align: left;
   color: #6c6b6c;
 }
-header .modfied-container .upper-bar ul li a img {
+header .upper-bar ul li a img {
   position: relative;
-  top: -3px;
+  top: -2px;
 }
-@media (max-width: 566px) {
-  header .modfied-container .upper-bar ul li {
+@media (max-width: 576px) {
+  header .upper-bar ul li {
     margin-right: 5px;
   }
-  header .modfied-container .upper-bar ul li a {
+  header .upper-bar ul li a {
     font-size: 10px;
   }
 }
-header .modfied-container nav {
+header nav {
   padding-top: 0;
   padding-bottom: 0;
 }
-header .modfied-container nav .navbar-brand {
+header nav .navbar-brand {
   padding-top: 0;
   padding-bottom: 0;
 }
-header .modfied-container nav .navbar-collapse .navbar-nav li {
-  margin-right: 20px;
+header nav .navbar-brand img:first-of-type {
+  position: relative;
+  top: 10px;
 }
-header .modfied-container nav .navbar-collapse .navbar-nav li a {
+@media (max-width: 576px) {
+  header nav .navbar-brand img:last-of-type {
+    width: 200px;
+  }
+}
+@media (max-width: 374px) {
+  header nav .navbar-brand img:last-of-type {
+    width: 150px;
+  }
+}
+@media (max-width: 576px) {
+  header nav .navbar-toggler {
+    position: relative;
+    top: 5px;
+  }
+}
+header nav .navbar-collapse .navbar-nav li {
+  margin-right: 17px;
+}
+header nav .navbar-collapse .navbar-nav li.last {
+  margin-right: 0;
+}
+header nav .navbar-collapse .navbar-nav li a {
   text-transform: uppercase;
   font-family: Arial;
-  font-size: 16px;
+  font-size: 13.5px;
   line-height: 1.25;
-  color: #268540;
+  color: #268540 !important;
+  font-weight: 600;
 }
-header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-arrow) {
+header nav .navbar-collapse .navbar-nav li a img:not(.down-arrow) {
   position: relative;
   top: -3px;
 }
@@ -88,12 +112,8 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
 }
 .banner .carousel .carousel-indicators {
   justify-content: flex-end;
+  margin-right: 5%;
   bottom: 100px;
-}
-@media (max-width: 767px) {
-  .banner .carousel .carousel-indicators {
-    bottom: 45%;
-  }
 }
 .banner .carousel .carousel-indicators li {
   width: 11px;
@@ -108,8 +128,13 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
   background-color: #1ca470;
   opacity: 1;
 }
-.banner .carousel .carousel-inner .carousel-item img {
-  height: 998px;
+.banner .carousel .carousel-inner .carousel-item {
+  height: 750px;
+  width: 100%;
+  background: url("../images/home/slider/1278.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
 }
 .banner .carousel .carousel-inner .carousel-item .carousel-caption {
   top: 50%;
@@ -123,7 +148,7 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
 }
 .banner .carousel .carousel-inner .carousel-item .carousel-caption h1 {
   font-family: "Roboto", sans-serif;
-  font-size: 62px;
+  font-size: 52.5px;
   font-weight: 500;
   line-height: 1.23;
   color: #fafafa;
@@ -132,33 +157,43 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
 .banner .carousel .carousel-inner .carousel-item .carousel-caption p {
   opacity: 0.54;
   font-family: Arial;
-  font-size: 27px;
+  font-size: 23px;
   line-height: 1.3;
   color: #fafafa;
 }
 .banner .carousel .carousel-inner .carousel-item .carousel-caption a {
   display: inline-block;
-  padding: 15px 60px;
+  text-decoration: none;
+  padding: 13px 51px;
   border-radius: 6px;
   border: solid 1px #fafafa;
   font-family: "Roboto", sans-serif;
-  font-size: 19px;
+  font-size: 16px;
   color: #fafafa;
 }
 .banner form {
   position: absolute;
-  bottom: -5%;
+  bottom: -6%;
   width: 100%;
 }
+@media (max-width: 767px) {
+  .banner form {
+    position: relative;
+    bottom: 0;
+    margin-top: 50px;
+  }
+}
 .banner form .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+.banner form .form-row {
   -webkit-box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.18);
   -o-box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.18);
   -ms-box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.18);
   box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.18);
   background-color: #fafafa;
-  padding-left: 0;
-  padding-right: 0;
 }
 .banner form .form-row .dropdown {
   width: 100%;
@@ -173,9 +208,9 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
   align-self: center;
 }
 .banner form .form-row .dropdown .dropdown-toggle {
-  padding: 40px 20px 40px 50px;
+  padding: 34px 17px 34px 42.5px;
   font-family: Arial;
-  font-size: 17px;
+  font-size: 14.5px;
   text-align: left;
   color: #bcb8b8;
 }
@@ -201,11 +236,11 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 30px;
+  margin-left: 10px;
 }
 .banner form .form-row .button button {
   font-family: Arial;
-  font-size: 19px;
+  font-size: 16px;
   color: #d5d3d3;
   border: none;
   background: transparent;
@@ -221,11 +256,11 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
 /* End Banner */
 /* Start Select Section */
 .select {
-  padding: 100px 0;
+  padding: 85px 0;
 }
 .select .select-heading h2 {
   font-family: "Roboto", sans-serif;
-  font-size: 53px;
+  font-size: 45px;
   line-height: 1.43;
   text-transform: uppercase;
   color: #5c5b5c;
@@ -237,7 +272,7 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
 }
 .select .select-heading p {
   font-family: "Roboto", sans-serif;
-  font-size: 29px;
+  font-size: 24.5px;
   line-height: 1.41;
   text-transform: uppercase;
   color: #1ca470;
@@ -249,7 +284,7 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
   }
 }
 .select .select-content {
-  margin-top: 50px;
+  margin-top: 42.5px;
 }
 @media (max-width: 767px) {
   .select .select-content .owl-carousel .owl-item .item {
@@ -260,6 +295,9 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
 .select .select-content .owl-carousel .owl-item .item img {
   width: 102px;
   height: 102px;
+}
+.select .select-content .owl-carousel .owl-nav {
+  display: flex;
 }
 .select .select-content .owl-carousel .owl-prev,
 .select .select-content .owl-carousel .owl-next {
@@ -273,7 +311,7 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
   background: transparent;
 }
 .select .select-content .owl-carousel .owl-prev {
-  left: -5rem;
+  left: -4rem;
 }
 .select .select-content .owl-carousel .owl-next {
   right: -2rem;
@@ -291,23 +329,23 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
   background-color: #5c5b5c;
 }
 .offers .offers-heading .media {
-  padding: 25px 0;
+  padding: 21px 0;
 }
 .offers .offers-heading .media .media-body {
   font-family: "Roboto", sans-serif;
-  font-size: 17px;
+  font-size: 14.5px;
   text-align: left;
   color: #a2a2a2;
 }
 .offers .offers-heading .media .media-body h5 {
   font-family: "Roboto", sans-serif;
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 500;
   text-align: left;
   color: #ffffff;
 }
 .offers .offers-content {
-  padding: 110px 0;
+  padding: 93.5px 0;
 }
 @media (max-width: 767px) {
   .offers .offers-content {
@@ -330,7 +368,7 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
   display: flex;
   justify-content: flex-end;
   padding-right: 0;
-  padding-top: 40px;
+  padding-top: 34px;
 }
 @media (max-width: 767px) {
   .offers .offers-content .main-product .row .img-container img {
@@ -339,8 +377,8 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
 }
 .offers .offers-content .main-product .row .content {
   align-self: flex-end;
-  padding-bottom: 80px;
-  padding-left: 60px;
+  padding-bottom: 68px;
+  padding-left: 51px;
 }
 @media (max-width: 767px) {
   .offers .offers-content .main-product .row .content {
@@ -351,7 +389,7 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
 }
 .offers .offers-content .main-product .row .content h2 {
   font-family: "Roboto", sans-serif;
-  font-size: 45px;
+  font-size: 38.5px;
   text-align: left;
   color: #5c5b5c;
 }
@@ -363,18 +401,18 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
 }
 .offers .offers-content .main-product .row .content a {
   display: inline-block;
-  padding: 7px 30px;
+  padding: 6px 25.5px;
   border-radius: 3px;
   border: solid 0.6px #268540;
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   text-align: left;
   text-decoration: none;
   text-transform: uppercase;
   color: #268540;
 }
 .offers .offers-content .other-products {
-  margin-top: 10px;
+  margin-top: 8.5px;
 }
 .offers .offers-content .other-products > .row {
   margin-left: 0;
@@ -397,8 +435,8 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
   margin-left: 0;
   justify-content: space-between;
   background-color: #fff;
-  padding-top: 115px;
-  padding-bottom: 70px;
+  padding-top: 98px;
+  padding-bottom: 60px;
 }
 @media (max-width: 767px) {
   .offers .offers-content .other-products > .row .row {
@@ -410,7 +448,7 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
 }
 .offers .offers-content .other-products > .row .row .content h3 {
   font-family: "Roboto", sans-serif;
-  font-size: 45px;
+  font-size: 38.5px;
   text-align: left;
   color: #5c5b5c;
 }
@@ -427,11 +465,11 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
 }
 .offers .offers-content .other-products > .row .row .content a {
   display: inline-block;
-  padding: 7px 18px;
+  padding: 6px 15.5px;
   border-radius: 3px;
   border: solid 0.6px #268540;
   font-family: "Roboto", sans-serif;
-  font-size: 13px;
+  font-size: 11px;
   text-align: left;
   text-decoration: none;
   text-transform: uppercase;
@@ -449,12 +487,11 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
 /* End Offers Section */
 /* Start Featured Products */
 .featured-products {
-  margin-bottom: 100px;
   position: relative;
 }
 .featured-products .featured-heading h2 {
   font-family: .featured-products .featured-heading h2 rob;
-  font-size: 53px;
+  font-size: 45px;
   font-weight: 500;
   text-transform: uppercase;
   color: #5c5b5c;
@@ -472,7 +509,7 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
 }
 .featured-products .tabs ul li a {
   font-family: "Roboto", sans-serif;
-  font-size: 21px;
+  font-size: 18px;
   font-weight: normal;
   color: #979797;
 }
@@ -492,6 +529,8 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 85px;
+  margin-bottom: 85px;
 }
 .featured-products .featured-content .overlay {
   position: absolute;
@@ -501,13 +540,16 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
   background-color: #268540;
   align-self: center;
 }
+.featured-products .featured-content .carousel .sub-container {
+  margin-right: -2.5%;
+}
 .featured-products .featured-content .carousel .owl-carousel {
-  padding: 60px 0;
+  padding: 51px 0;
 }
 .featured-products .featured-content .carousel .owl-carousel .owl-prev,
 .featured-products .featured-content .carousel .owl-carousel .owl-next {
   position: absolute;
-  top: 78%;
+  top: 75%;
   outline: none;
   width: 49px;
   height: 49px;
@@ -522,7 +564,7 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
   left: -5rem;
 }
 .featured-products .featured-content .carousel .owl-carousel .owl-prev {
-  top: 68%;
+  top: 62%;
 }
 @media (max-width: 767px) {
   .featured-products .featured-content .carousel .owl-carousel .owl-prev,
@@ -560,12 +602,12 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
 }
 .featured-products .featured-content .carousel .owl-carousel .item .item-content span {
   font-family: Arial;
-  font-size: 13px;
+  font-size: 11px;
   color: #a2a2a2;
 }
 .featured-products .featured-content .carousel .owl-carousel .item .item-content p {
   font-family: Arial;
-  font-size: 18px;
+  font-size: 15.5px;
   color: #404040;
 }
 .featured-products .featured-content .carousel .owl-carousel .item .item-content .price {
@@ -577,7 +619,7 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
 }
 .featured-products .featured-content .carousel .owl-carousel .item .item-content .price .new-price {
   font-family: Arial;
-  font-size: 25px;
+  font-size: 21.5px;
   font-weight: 700;
   color: #404040;
 }
@@ -592,7 +634,7 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
 /* Start Deal Zone Section */
 .deal-zone .deal-heading h2 {
   font-family: "Roboto", sans-serif;
-  font-size: 53px;
+  font-size: 45px;
   text-align: center;
   color: #5c5b5c;
 }
@@ -606,10 +648,10 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
 }
 .deal-zone .deal-heading p {
   font-family: "Roboto", sans-serif;
-  font-size: 33px;
+  font-size: 28px;
   text-align: center;
   color: #268540;
-  margin-bottom: 40px;
+  margin-bottom: 34px;
 }
 @media (max-width: 767px) {
   .deal-zone .deal-heading p {
@@ -637,10 +679,10 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
   background: transparent;
 }
 .deal-zone .deal-content .owl-carousel .owl-prev {
-  left: -5rem;
+  left: -6rem;
 }
 .deal-zone .deal-content .owl-carousel .owl-next {
-  right: -5rem;
+  right: -6rem;
 }
 @media (max-width: 767px) {
   .deal-zone .deal-content .owl-carousel .owl-prev,
@@ -649,7 +691,7 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
   }
 }
 .deal-zone .deal-content .owl-carousel .item {
-  padding: 15px 30px;
+  padding: 15px 25.5px;
   background-color: #FFF;
 }
 .deal-zone .deal-content .owl-carousel .item img {
@@ -678,12 +720,12 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
 }
 .deal-zone .deal-content .owl-carousel .item .item-content span {
   font-family: Arial;
-  font-size: 13px;
+  font-size: 11px;
   color: #a2a2a2;
 }
 .deal-zone .deal-content .owl-carousel .item .item-content p {
   font-family: Arial;
-  font-size: 18px;
+  font-size: 15.5px;
   color: #404040;
 }
 .deal-zone .deal-content .owl-carousel .item .item-content .price {
@@ -694,7 +736,7 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
 .deal-zone .deal-content .owl-carousel .item .item-content .price .last-price {
   opacity: 0.59;
   font-family: Arial;
-  font-size: 17px;
+  font-size: 14.5px;
   color: #a2a2a2;
   position: relative;
   align-self: center;
@@ -711,13 +753,13 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
 }
 .deal-zone .deal-content .owl-carousel .item .item-content .price .new-price {
   font-family: Arial;
-  font-size: 25px;
+  font-size: 21.5px;
   font-weight: 700;
   color: #404040;
 }
 .deal-zone .deal-content .owl-carousel .item .item-content .price img {
-  width: 28px;
-  height: 24px;
+  width: 24px;
+  height: 20.5px;
   position: relative;
   top: 5px;
 }
@@ -746,13 +788,13 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
 /* End Deal Zone Section */
 /* Start New Arrivals */
 .new-arrivals {
-  padding: 60px 0;
+  padding: 51px 0;
 }
 .new-arrivals .arrivals-heading h2 {
   font-family: "Roboto", sans-serif;
-  font-size: 53px;
+  font-size: 45px;
   color: #5c5b5c;
-  margin-bottom: 50px;
+  margin-bottom: 42.5px;
 }
 @media (max-width: 767px) {
   .new-arrivals .arrivals-heading h2 {
@@ -794,12 +836,12 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
 }
 .new-arrivals .item .item-content span {
   font-family: Arial;
-  font-size: 12px;
+  font-size: 10.5px;
   color: #a2a2a2;
 }
 .new-arrivals .item .item-content p {
   font-family: Arial;
-  font-size: 17px;
+  font-size: 14.5px;
   color: #404040;
 }
 .new-arrivals .item .item-content .price {
@@ -811,18 +853,18 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
 }
 .new-arrivals .item .item-content .price .new-price {
   font-family: Arial;
-  font-size: 23px;
+  font-size: 19.5px;
   font-weight: 700;
   color: #404040;
 }
 .new-arrivals .item .item-content .price img {
-  width: 28px;
-  height: 24px;
+  width: 24px;
+  height: 20.5px;
   position: relative;
   top: 5px;
 }
 .new-arrivals .sub {
-  margin-top: 70px;
+  margin-top: 60px;
 }
 .new-arrivals .sub > .row > div {
   padding-left: 5px;
@@ -879,7 +921,7 @@ header .modfied-container nav .navbar-collapse .navbar-nav li a img:not(.down-ar
 
 /* End New Arrivals */
 footer .info {
-  padding: 70px 0;
+  padding: 60px 0;
   background-color: #5c5b5c;
 }
 @media (max-width: 767px) {
@@ -887,138 +929,135 @@ footer .info {
     padding: 50px 10px;
   }
 }
-footer .info .modfied-container {
-  max-width: 1630px;
-}
 @media (max-width: 767px) {
-  footer .info .modfied-container .newsletter {
+  footer .info .newsletter {
     margin-bottom: 30px;
   }
 }
-footer .info .modfied-container .newsletter h3 {
+footer .info .newsletter h3 {
   font-family: "Roboto", sans-serif;
-  font-size: 13px;
+  font-size: 11px;
   font-weight: bold;
   color: #ffffff;
   text-transform: uppercase;
 }
-footer .info .modfied-container .newsletter P {
+footer .info .newsletter P {
   font-family: "Roboto", sans-serif;
-  font-size: 13px;
+  font-size: 11px;
   color: #ffffff;
   margin-bottom: 30px;
 }
-footer .info .modfied-container .newsletter form input[type=email] {
-  width: 260px;
-  height: 53px;
-  padding: 15px 20px;
+footer .info .newsletter form input[type=email] {
+  width: 221px;
+  height: 45px;
+  padding: 13px 17px;
   background: transparent;
   color: #fff;
   border-radius: 4px;
   border: solid 1px #70b63e;
   outline: none;
 }
-footer .info .modfied-container .newsletter form input[type=email]::placeholder {
+footer .info .newsletter form input[type=email]::placeholder {
   color: #fff;
 }
-footer .info .modfied-container .newsletter form input[type=submit] {
-  width: 160px;
-  height: 53px;
-  padding: 10px;
+footer .info .newsletter form input[type=submit] {
+  width: 136px;
+  height: 45px;
+  padding: 8.5px;
   border: none;
-  border-radius: 4px;
+  border-radius: 3.5px;
   background-color: #70b63e;
   color: #fff;
 }
 @media (max-width: 767px) {
-  footer .info .modfied-container .newsletter form input[type=submit] {
-    width: 260px;
+  footer .info .newsletter form input[type=submit] {
+    width: 221px;
     margin-top: 20px;
   }
 }
 @media (max-width: 767px) {
-  footer .info .modfied-container .get-app {
+  footer .info .get-app {
     margin-bottom: 30px;
   }
 }
-footer .info .modfied-container .get-app h3 {
+footer .info .get-app h3 {
   font-family: "Roboto", sans-serif;
-  font-size: 13px;
+  font-size: 11px;
   font-weight: bold;
   color: #ffffff;
   text-transform: uppercase;
 }
-footer .info .modfied-container .get-app P {
+footer .info .get-app P {
   font-family: "Roboto", sans-serif;
-  font-size: 13px;
+  font-size: 11px;
   color: #ffffff;
   margin-bottom: 40px;
 }
-footer .info .modfied-container .get-app .get-images img {
-  width: 170px;
-  height: 45px;
+footer .info .get-app .get-images img {
+  width: 145px;
+  height: 38.5px;
 }
 @media (max-width: 767px) {
-  footer .info .modfied-container .get-app .get-images img {
+  footer .info .get-app .get-images img {
     margin-bottom: 20px;
   }
 }
 @media (max-width: 767px) {
-  footer .info .modfied-container .information {
+  footer .info .information {
     margin-bottom: 30px;
   }
 }
-footer .info .modfied-container .information .media i {
+footer .info .information .media i {
   color: #70b63e;
   align-self: center;
-  width: 15px;
-  height: 21px;
-  font-size: 24px;
+  width: 13px;
+  height: 18px;
+  font-size: 20.5px;
 }
-footer .info .modfied-container .information .media .media-body {
+footer .info .information .media .media-body {
   margin-left: 20px;
 }
-footer .info .modfied-container .information .media .media-body h5 {
+footer .info .information .media .media-body h5 {
   font-family: Arial;
-  font-size: 10px;
+  font-size: 8.8px;
   font-weight: bold;
   color: #70b63e;
 }
-footer .info .modfied-container .information .media .media-body p {
-  font-size: 13px;
+footer .info .information .media .media-body p {
+  font-size: 11px;
   color: #fff;
   font-weight: bold;
 }
-footer .info .modfied-container .pages ul {
+footer .info .pages ul {
   line-height: 2;
 }
-footer .info .modfied-container .pages ul li a {
+footer .info .pages ul li a {
   text-decoration: none;
   text-transform: uppercase;
   font-family: Arial;
-  font-size: 13px;
+  font-size: 11px;
   font-weight: bold;
   color: #ffffff;
 }
 footer .copyright {
-  padding: 20px 0 10px 0;
+  padding: 17px 0 8.5px 0;
   background-color: #222122;
   font-family: Arial;
-  font-size: 17px;
+  font-size: 15px;
   color: #ffffff;
 }
-footer .copyright .modfied-container {
-  max-width: 1630px;
-}
 @media (max-width: 767px) {
-  footer .copyright .modfied-container ul {
+  footer .copyright ul {
     margin-top: 20px;
   }
 }
-footer .copyright .modfied-container ul li {
+footer .copyright ul li {
   margin-right: 40px;
 }
-footer .copyright .modfied-container ul li a {
+footer .copyright ul li.last {
+  margin-right: 0;
+}
+footer .copyright ul li a {
   color: #ffffff;
   opacity: 0.6;
 }

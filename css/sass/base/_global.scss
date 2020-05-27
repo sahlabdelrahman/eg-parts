@@ -4,6 +4,14 @@
 
 body {
     background-color: #fafafa;
+    .container {
+        max-width: 90% !important;
+    }
+
+    .sub-container {
+        max-width: 85% !important;
+        margin: auto;
+    }
     
     a {
         text-decoration: none;

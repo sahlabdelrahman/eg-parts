@@ -1,35 +1,33 @@
 footer {
     .info {
-        padding: 70px 0;
+        padding: 60px 0;
         background-color: #5c5b5c;
         @media #{$maxSmall} {
             padding: 50px 10px;
         }
-        .modfied-container {
-            max-width: 1630px;
         .newsletter {
             @media #{$maxSmall} {
                 margin-bottom: 30px;
             }
             h3 {
                 font-family: $rob;
-                font-size: 13px;
+                font-size: 11px;
                 font-weight: bold;
                 color: #ffffff;
                 text-transform: uppercase;
             }
             P {
                 font-family: $rob;
-                font-size: 13px;
+                font-size: 11px;
                 color: #ffffff;
                 margin-bottom: 30px;
             }
             form {
                 
                 input[type='email'] {
-                    width: 260px;
-                    height: 53px;
-                    padding: 15px 20px;
+                    width: 221px;
+                    height: 45px;
+                    padding: 13px 17px;
                     background: transparent;
                     color: #fff;
                     border-radius: 4px;
@@ -40,15 +38,15 @@ footer {
                     }
                 }
                 input[type='submit'] {
-                    width: 160px;
-                    height: 53px;
-                    padding: 10px;
+                    width: 136px;
+                    height: 45px;
+                    padding: 8.5px;
                     border: none;
-                    border-radius: 4px;
+                    border-radius: 3.5px;
                     background-color: #70b63e;
                     color: #fff;
                     @media #{$maxSmall} {
-                        width: 260px;
+                        width: 221px;
                         margin-top: 20px;
                     }
                 }
@@ -60,21 +58,21 @@ footer {
             }
             h3 {
                 font-family: $rob;
-                font-size: 13px;
+                font-size: 11px;
                 font-weight: bold;
                 color: #ffffff;
                 text-transform: uppercase;
             }
             P {
                 font-family: $rob;
-                font-size: 13px;
+                font-size: 11px;
                 color: #ffffff;
                 margin-bottom: 40px;
             }
             .get-images {
                 img {
-                    width: 170px;
-                    height: 45px;
+                    width: 145px;
+                    height: 38.5px;
                     @media #{$maxSmall} {
                         margin-bottom: 20px;
                     }
@@ -89,21 +87,21 @@ footer {
                 i {
                     color: #70b63e;
                     align-self: center;
-                    width: 15px;
-                    height: 21px;
-                    font-size: 24px;
+                    width: 13px;
+                    height: 18px;
+                    font-size: 20.5px;
                 }
                 .media-body {
                     margin-left: 20px;
                     h5 {
                         font-family: Arial;
-                        font-size: 10px;
+                        font-size: 8.8px;
                         font-weight: bold;
                         
                         color: #70b63e;
                     }
                     p {
-                        font-size: 13px;
+                        font-size: 11px;
                         color: #fff;
                         font-weight: bold;
                     }
@@ -118,37 +116,37 @@ footer {
                         text-decoration: none;
                         text-transform: uppercase;
                         font-family: Arial;
-                        font-size: 13px;
+                        font-size: 11px;
                         font-weight: bold;
                         color: #ffffff;
                     }
                 }
             }
         }
-        }
         
     }
 
     .copyright {
-        padding: 20px 0 10px 0;
+        padding: 17px 0 8.5px 0;
         background-color: #222122;
         font-family: Arial;
-        font-size: 17px;
+        font-size: 15px;
         color: #ffffff;
-        .modfied-container {
-            max-width: 1630px;
             ul {
                 @media #{$maxSmall} {
                     margin-top: 20px;
                 }
                 li {
                     margin-right: 40px;
+                    &.last {
+                        margin-right: 0;
+                    }
                     a {
                         color: #ffffff;
                         opacity: 0.6;
                     }
                 }
             }
-        }
+
     }
 }

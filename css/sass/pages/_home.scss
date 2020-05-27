@@ -6,10 +6,8 @@
 .carousel {
     .carousel-indicators {
         justify-content: flex-end;
+        margin-right: 5%;
         bottom: 100px;
-        @media #{$maxSmall} {
-            bottom: 45%;
-        }
         li {
             width: 11px;
             height: 11px;
@@ -26,10 +24,14 @@
     }
 
     .carousel-inner {
+        
         .carousel-item {
-            img {
-                height: 998px;
-            }
+            height: 750px;
+            width:100%;
+            background: url('../images/home/slider/1278.png');
+            background-repeat: no-repeat;
+            background-position: center bottom;
+            background-size: cover;
             .carousel-caption {
                 top: 50%;
                 transform: translateY(-50%);
@@ -41,7 +43,7 @@
                 transform-style: preserve-3d;
                 h1 {
                     font-family: $rob;
-                    font-size: 62px;
+                    font-size: 52.5px;
                     font-weight: 500;
                     line-height: 1.23;
                     color: #fafafa;
@@ -50,17 +52,18 @@
                 p {
                     opacity: 0.54;
                     font-family: Arial;
-                    font-size: 27px;
+                    font-size: 23px;
                     line-height: 1.3;
                     color: #fafafa;
                 }
                 a {
                     display: inline-block;
-                    padding: 15px 60px;
+                    text-decoration: none;
+                    padding: 13px 51px;
                     border-radius: 6px;
                     border: solid 1px #fafafa;
                     font-family: $rob;
-                    font-size: 19px;
+                    font-size: 16px;
                     color: #fafafa;
                 }
             }
@@ -73,15 +76,21 @@
 /* Start Form */
 form {
     position: absolute;
-    bottom: -5%;
+    bottom: -6%;
     width: 100%;
+    @media #{$maxSmall} {
+        position: relative;
+        bottom: 0;
+        margin-top: 50px;
+    }
     .container {
-        @include prefixer( box-shadow, 0 4px 9px 0 rgba(0, 0, 0, 0.18), webkit moz o ms);
-        background-color: #fafafa;
+        
         padding-left: 0;
         padding-right: 0;
     }
     .form-row {
+        @include prefixer( box-shadow, 0 4px 9px 0 rgba(0, 0, 0, 0.18), webkit moz o ms);
+        background-color: #fafafa;
         .dropdown {
             width: 100%;
             display: flex;
@@ -94,9 +103,9 @@ form {
                 align-self: center;
             }
             .dropdown-toggle {
-                padding: 40px 20px 40px 50px;
+                padding: 34px 17px 34px 42.5px;
                 font-family: Arial;
-                font-size: 17px;
+                font-size: 14.5px;
                 text-align: left;
                 color: #bcb8b8;
                 @media #{$maxSmall} {
@@ -119,10 +128,10 @@ form {
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-left: 30px;
+            margin-left: 10px;
             button {
                     font-family: Arial;
-                    font-size: 19px;
+                    font-size: 16px;
                     color: #d5d3d3;
                     border: none;
                     background: transparent;
@@ -143,12 +152,12 @@ form {
 
 /* Start Select Section */
 .select {
-    padding: 100px 0;
+    padding: 85px 0;
     .select-heading {
         h2 {
             
             font-family: $rob;
-            font-size: 53px;
+            font-size: 45px;
             line-height: 1.43;
             text-transform: uppercase;
             color: #5c5b5c;
@@ -158,7 +167,7 @@ form {
         }
         p {
             font-family: $rob;
-            font-size: 29px;
+            font-size: 24.5px;
             line-height: 1.41;
             text-transform: uppercase;
             color: #1ca470;
@@ -170,7 +179,7 @@ form {
     }
 
     .select-content {
-        margin-top: 50px;
+        margin-top: 42.5px;
         
         .owl-carousel {
             .owl-item {
@@ -185,6 +194,9 @@ form {
                     }
                 }
             }
+            .owl-nav {
+                display: flex;
+            }
             .owl-prev,
             .owl-next {
             position: absolute;
@@ -197,7 +209,7 @@ form {
             }
 
             .owl-prev {
-            left: -5rem;
+            left: -4rem;
             }
 
             .owl-next {
@@ -219,15 +231,15 @@ form {
     .offers-heading {
         background-color: #5c5b5c;
         .media {
-            padding: 25px 0;
+            padding: 21px 0;
             .media-body {
                 font-family: $rob;
-                font-size: 17px;
+                font-size: 14.5px;
                 text-align: left;
                 color: #a2a2a2;
                 h5 {
                     font-family: $rob;
-                    font-size: 21px;
+                    font-size: 18px;
                     font-weight: 500;
                     text-align: left;
                     color: #ffffff;
@@ -236,7 +248,7 @@ form {
         }
     }
     .offers-content {
-        padding: 110px 0;
+        padding: 93.5px 0;
         @media #{$maxSmall} {
             padding: 55px 0;
         }
@@ -252,7 +264,7 @@ form {
                     display: flex;
                     justify-content: flex-end;
                     padding-right: 0;
-                    padding-top: 40px;
+                    padding-top: 34px;
                     @media #{$maxSmall} {
                         img {
                             width: 100%;
@@ -261,8 +273,8 @@ form {
                 }
                 .content {
                     align-self: flex-end;
-                    padding-bottom: 80px;
-                    padding-left: 60px;
+                    padding-bottom: 68px;
+                    padding-left: 51px;
                     @media #{$maxSmall} {
                         text-align: center;
                         padding-left: 0;
@@ -271,7 +283,7 @@ form {
                     
                     h2 {
                         font-family: $rob;
-                        font-size: 45px;
+                        font-size: 38.5px;
                         text-align: left;
                         color: #5c5b5c;
                         @media #{$maxSmall} {
@@ -281,11 +293,11 @@ form {
                     }
                     a {
                         display: inline-block;
-                        padding: 7px 30px;
+                        padding: 6px 25.5px;
                         border-radius: 3px;
                         border: solid 0.6px #268540;
                         font-family: $rob;
-                        font-size: 14px;
+                        font-size: 12px;
                         text-align: left;
                         text-decoration: none;
                         text-transform: uppercase;
@@ -296,7 +308,7 @@ form {
             }
         }
         .other-products {
-            margin-top: 10px;
+            margin-top: 8.5px;
             & > .row {
                 margin-left: 0;
                 margin-right: 0;
@@ -316,8 +328,8 @@ form {
                     margin-left: 0;
                     justify-content: space-between;
                     background-color: #fff;
-                    padding-top: 115px;
-                    padding-bottom: 70px;
+                    padding-top: 98px;
+                    padding-bottom: 60px;
                     @media #{$maxSmall} {
                         margin-bottom: 30px;
                     }
@@ -326,7 +338,7 @@ form {
                         
                         h3 {
                             font-family: $rob;
-                            font-size: 45px;
+                            font-size: 38.5px;
                             text-align: left;
                             color: #5c5b5c;
                             @media #{$maxSmall} {
@@ -341,11 +353,11 @@ form {
                         }
                         a {
                             display: inline-block;
-                            padding: 7px 18px;
+                            padding: 6px 15.5px;
                             border-radius: 3px;
                             border: solid 0.6px #268540;
                             font-family: $rob;
-                            font-size: 13px;
+                            font-size: 11px;
                             text-align: left;
                             text-decoration: none;
                             text-transform: uppercase;
@@ -371,12 +383,12 @@ form {
 
 /* Start Featured Products */
 .featured-products {
-    margin-bottom: 100px;
+    
     position: relative;
     .featured-heading {
       h2 {
         font-family: &rob;
-        font-size: 53px;
+        font-size: 45px;
         font-weight: 500;
         text-transform: uppercase;
         color: #5c5b5c;
@@ -394,7 +406,7 @@ form {
             li {
                 a {
                     font-family: $rob;
-                    font-size: 21px;
+                    font-size: 18px;
                     font-weight: normal;
                     color: #979797;
                     &.active {
@@ -418,6 +430,8 @@ form {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-top: 85px;
+        margin-bottom: 85px;
         .overlay {
             position: absolute;
             left: 0;
@@ -427,12 +441,13 @@ form {
             align-self: center;
         }
         .carousel {
+            .sub-container{ margin-right: -2.5%;}
             .owl-carousel {
-                padding: 60px 0;
+                padding: 51px 0;
                 .owl-prev,
                 .owl-next {
                 position: absolute;
-                top: 78%;
+                top: 75%;
                 outline: none;
                 width: 49px;
                 height: 49px;
@@ -447,7 +462,7 @@ form {
                 left: -5rem;
                 }
                 .owl-prev {
-                    top: 68%;
+                    top: 62%;
                 }
                 @media #{$maxSmall} {
                     .owl-prev,
@@ -487,12 +502,12 @@ form {
                     .item-content {
                         span {
                             font-family: Arial;
-                            font-size: 13px;
+                            font-size: 11px;
                             color: #a2a2a2;
                         }
                         p{
                             font-family: Arial;
-                            font-size: 18px;
+                            font-size: 15.5px;
                             color: #404040;
             
                         }
@@ -504,7 +519,7 @@ form {
                             border-top: 1px solid rgba(0, 0, 0, 0.2);
                             .new-price {
                                 font-family: Arial;
-                                font-size: 25px;
+                                font-size: 21.5px;
                                 font-weight: 700;
                                 color: #404040;
                             }
@@ -529,7 +544,7 @@ form {
     .deal-heading {
         h2 {
             font-family: $rob;
-            font-size: 53px;
+            font-size: 45px;
             text-align: center;
             color: #5c5b5c;
             @media #{$maxSmall} {
@@ -541,10 +556,10 @@ form {
         }
         p {
             font-family: $rob;
-            font-size: 33px;
+            font-size: 28px;
             text-align: center;
             color: #268540;
-            margin-bottom: 40px;
+            margin-bottom: 34px;
             @media #{$maxSmall} {
                 font-size: 14px;
             }
@@ -570,11 +585,11 @@ form {
             }
 
             .owl-prev {
-            left: -5rem;
+            left: -6rem;
             }
 
             .owl-next {
-            right: -5rem;
+            right: -6rem;
             }
             @media #{$maxSmall} {
                 .owl-prev,
@@ -583,7 +598,7 @@ form {
                 }
             }
             .item {
-                padding: 15px 30px;
+                padding: 15px 25.5px;
                 background-color: #FFF;
                 img {
                     display: inline-block;
@@ -614,12 +629,12 @@ form {
                 .item-content {
                     span {
                         font-family: Arial;
-                        font-size: 13px;
+                        font-size: 11px;
                         color: #a2a2a2;
                     }
                     p{
                         font-family: Arial;
-                        font-size: 18px;
+                        font-size: 15.5px;
                         color: #404040;
         
                     }
@@ -630,7 +645,7 @@ form {
                         .last-price {
                             opacity: 0.59;
                             font-family: Arial;
-                            font-size: 17px;
+                            font-size: 14.5px;
                             color: #a2a2a2;
                             position: relative;
                             align-self: center;
@@ -647,13 +662,13 @@ form {
                         }
                         .new-price {
                             font-family: Arial;
-                            font-size: 25px;
+                            font-size: 21.5px;
                             font-weight: 700;
                             color: #404040;
                         }
                         img {
-                            width: 28px;
-                            height: 24px;
+                            width: 24px;
+                            height: 20.5px;
                             position: relative;
                             top: 5px;
                         }
@@ -690,13 +705,13 @@ form {
 
 /* Start New Arrivals */
 .new-arrivals {
-    padding: 60px 0;
+    padding: 51px 0;
     .arrivals-heading {
         h2 {
             font-family: $rob;
-            font-size: 53px;
+            font-size: 45px;
             color: #5c5b5c;
-            margin-bottom: 50px;
+            margin-bottom: 42.5px;
             @media #{$maxSmall} {
                 font-size: 30px;
             }
@@ -740,12 +755,12 @@ form {
         .item-content {
             span {
                 font-family: Arial;
-                font-size: 12px;
+                font-size: 10.5px;
                 color: #a2a2a2;
             }
             p{
                 font-family: Arial;
-                font-size: 17px;
+                font-size: 14.5px;
                 color: #404040;
 
             }
@@ -757,13 +772,13 @@ form {
                 border-top: 1px solid rgba(0, 0, 0, 0.2);
                 .new-price {
                     font-family: Arial;
-                    font-size: 23px;
+                    font-size: 19.5px;
                     font-weight: 700;
                     color: #404040;
                 }
                 img {
-                    width: 28px;
-                    height: 24px;
+                    width: 24px;
+                    height: 20.5px;
                     position: relative;
                     top: 5px;
                 }
@@ -771,7 +786,7 @@ form {
         }
     }
     .sub {
-        margin-top: 70px;
+        margin-top: 60px;
         & > .row > div {
             padding-left: 5px;
             padding-right: 5px;

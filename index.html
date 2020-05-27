@@ -16,7 +16,7 @@
         <!-- Start Header -->
 
         <header>
-            <div class="container modfied-container">
+            <div class="container">
                 <!-- Start Upper Bar -->
                 <div class="upper-bar">
                     <ul class="list-unstyled">
@@ -31,7 +31,7 @@
                 <!-- Start Navbar -->
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <a class="navbar-brand" href="#">
-                        <img class="d-none d-md-inline-bloc;=k" src="images/home/icons/menu (3).svg" alt="menu" />
+                        <img class="d-none d-lg-inline-block" src="images/home/icons/menu (3).svg" alt="menu" />
                         <img src="images/home/icons/logo.png" alt="logo" />
                     </a>
                     <button class="navbar-toggler lign-self-center" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,7 +61,7 @@
                         <li class="nav-item">
                           <a class="nav-link" href="#"><img src="images/home/icons/user.svg" alt="user"/> name</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item last">
                           <a class="nav-link" href="#"><img src="images/home/icons/supermarket (3).svg" alt="supermarket" /></a>
                         </li>
                         
@@ -84,7 +84,6 @@
                 </ol>
                 <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="images/home/slider/1278.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                     <h1>Find Parts For Your Vehicle</h1>
                     <p>Over hundreds of brands and tens of thousands of parts</p>
@@ -92,7 +91,6 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/home/slider/1278.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h1>Find Parts For Your Vehicle</h1>
                         <p>Over hundreds of brands and tens of thousands of parts</p>
@@ -100,7 +98,6 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/home/slider/1278.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h1>Find Parts For Your Vehicle</h1>
                         <p>Over hundreds of brands and tens of thousands of parts</p>
@@ -114,39 +111,41 @@
             <!-- Start Search -->
             <form>
                 <div class="container">
-                    <div class="form-row">
-                        <div class="dropdown col-md">
-                            <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              Select Year
-                            </button>
-                            <img src="images/home/icons/down-arrow.svg" alt="down-arrow" />
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2"></div>
-                        </div>
-                        <div class="dropdown col-md">
-                            <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              Select Make
-                            </button>
-                            <img src="images/home/icons/down-arrow.svg" alt="down-arrow" />
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2"></div>
-                        </div>
-                        <div class="dropdown col-md">
-                            <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              Select Model
-                            </button>
-                            <img src="images/home/icons/down-arrow.svg" alt="down-arrow" />
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2"></div>
-                        </div>
-                        <div class="dropdown col-md last">
-                            <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              Select Engine
-                            </button>
-                            <img src="images/home/icons/down-arrow.svg" alt="down-arrow" />
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2"></div>
-                        </div>
-                        <div class="col-md button">
-                          <button type="submit">Search</button>
-                        </div>
-                      </div>
+                    <div class="sub-container">
+                        <div class="form-row">
+                            <div class="dropdown col-md">
+                                <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Select Year
+                                </button>
+                                <img src="images/home/icons/down-arrow.svg" alt="down-arrow" />
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenu2"></div>
+                            </div>
+                            <div class="dropdown col-md">
+                                <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Select Make
+                                </button>
+                                <img src="images/home/icons/down-arrow.svg" alt="down-arrow" />
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenu2"></div>
+                            </div>
+                            <div class="dropdown col-md">
+                                <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Select Model
+                                </button>
+                                <img src="images/home/icons/down-arrow.svg" alt="down-arrow" />
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenu2"></div>
+                            </div>
+                            <div class="dropdown col-md last">
+                                <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Select Engine
+                                </button>
+                                <img src="images/home/icons/down-arrow.svg" alt="down-arrow" />
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenu2"></div>
+                            </div>
+                            <div class="col-md button">
+                              <button type="submit">Search</button>
+                            </div>
+                          </div>
+                    </div>
                 </div>   
             </form>
             <!-- End Search -->
@@ -155,19 +154,21 @@
         <!-- Start Select Section -->
         <section class="select text-center">
             <div class="container">
-                <div class="select-heading">
-                    <h2>Select auto parts by make</h2>
-                    <p>View a selection of our most popular makes</p>
-                </div>
-                <div class="select-content">
-                    <div id="brands" class="owl-carousel owl-theme">
-                        <div class="item"><img src="images/home/brands/brand-1.png" alt="icon" /></div>
-                        <div class="item"><img src="images/home/brands/brand-10.png" alt="icon" /></div>
-                        <div class="item"><img src="images/home/brands/brand-13.png" alt="icon" /></div>
-                        <div class="item"><img src="images/home/brands/brand-14.png" alt="icon" /></div>
-                        <div class="item"><img src="images/home/brands/brand-3.png" alt="icon" /></div>
-                        <div class="item"><img src="images/home/brands/brand-5.png" alt="icon" /></div>
-                        <div class="item last"><img src="images/home/brands/brand-6.png" alt="icon" /></div>
+                <div class="sub-container">
+                    <div class="select-heading">
+                        <h2>Select auto parts by make</h2>
+                        <p>View a selection of our most popular makes</p>
+                    </div>
+                    <div class="select-content">
+                        <div id="brands" class="owl-carousel owl-theme">
+                            <div class="item"><img src="images/home/brands/brand-1.png" alt="icon" /></div>
+                            <div class="item"><img src="images/home/brands/brand-10.png" alt="icon" /></div>
+                            <div class="item"><img src="images/home/brands/brand-13.png" alt="icon" /></div>
+                            <div class="item"><img src="images/home/brands/brand-14.png" alt="icon" /></div>
+                            <div class="item"><img src="images/home/brands/brand-3.png" alt="icon" /></div>
+                            <div class="item"><img src="images/home/brands/brand-5.png" alt="icon" /></div>
+                            <div class="item last"><img src="images/home/brands/brand-6.png" alt="icon" /></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -178,40 +179,42 @@
         <section class="offers">
             <div class="offers-heading text-center">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="media">
-                                <img src="images/home/icons/free.svg" class="mr-3" alt="free">
-                                <div class="media-body">
-                                  <h5 class="mt-0">Free Shipping</h5>
-                                  For orders from $50
+                    <div class="sub-container">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="media">
+                                    <img src="images/home/icons/free.svg" class="mr-3" alt="free">
+                                    <div class="media-body">
+                                      <h5 class="mt-0">Free Shipping</h5>
+                                      For orders from $50
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="media">
-                                <img src="images/home/icons/support.svg" class="mr-3" alt="support">
-                                <div class="media-body">
-                                  <h5 class="mt-0">Support 24/7</h5>
-                                  Call us snytime
+                            <div class="col-md-3">
+                                <div class="media">
+                                    <img src="images/home/icons/support.svg" class="mr-3" alt="support">
+                                    <div class="media-body">
+                                      <h5 class="mt-0">Support 24/7</h5>
+                                      Call us snytime
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="media">
-                                <img src="images/home/icons/pay.svg" class="mr-3" alt="pay">
-                                <div class="media-body">
-                                  <h5 class="mt-0">100% Safety</h5>
-                                  Only secure payments
+                            <div class="col-md-3">
+                                <div class="media">
+                                    <img src="images/home/icons/pay.svg" class="mr-3" alt="pay">
+                                    <div class="media-body">
+                                      <h5 class="mt-0">100% Safety</h5>
+                                      Only secure payments
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="media">
-                                <img src="images/home/icons/discount.svg" class="mr-3" alt="discount">
-                                <div class="media-body">
-                                  <h5 class="mt-0">Hot Offers</h5>
-                                  Discounts up to 90%
+                            <div class="col-md-3">
+                                <div class="media">
+                                    <img src="images/home/icons/discount.svg" class="mr-3" alt="discount">
+                                    <div class="media-body">
+                                      <h5 class="mt-0">Hot Offers</h5>
+                                      Discounts up to 90%
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -290,108 +293,112 @@
                 <h2>featured products</h2>
             </div>
             <div class="container">
-                <div class="tabs">
-                    <ul class="nav justify-content-center">
-                        <li class="nav-item">
-                          <a class="nav-link active" href="#">All</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Power Tools</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Hand Tools</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Plumbing</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Body Parts</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Body Parts</a>
-                        </li>
-                      </ul>
+                <div class="sub-container">
+                    <div class="tabs">
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item">
+                              <a class="nav-link active" href="#">All</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Power Tools</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Hand Tools</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Plumbing</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Body Parts</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Body Parts</a>
+                            </li>
+                          </ul>
+                    </div>
                 </div>
             </div>
             <section class="featured-content">
                 <div class="overlay"></div>
                 <div class="carousel">
                     <div class="container">
-                        <div id="featured" class="owl-carousel owl-theme">
-                            <div class="item">
-                                <div class="item-heading">
-                                    <span class="rate">
-                                        4.5 <img src="images/home/icons/star (1).svg" alt="icon" />
-                                    </span>
-                                    <div class="clearfix"></div>
-                                    <img class="img-product" src="images/home/products/product-5-245x245.png" alt="product" />
+                        <div class="sub-container">
+                            <div id="featured" class="owl-carousel owl-theme">
+                                <div class="item">
+                                    <div class="item-heading">
+                                        <span class="rate">
+                                            4.5 <img src="images/home/icons/star (1).svg" alt="icon" />
+                                        </span>
+                                        <div class="clearfix"></div>
+                                        <img class="img-product" src="images/home/products/product-5-245x245.png" alt="product" />
+                                    </div>
+                                    <div class="item-content">
+                                        <span>SKU: 729-51203-B</span>
+                                        <p>Twin Exhaust Pipe From Brandix Z54</p>
+                                        <span class="price">
+                                            <span class="new-price">$749.00</span>
+                                            <a href="#">
+                                                <img src="images/home/icons/supermarket (3).svg" alt="icon" />
+                                            </a>
+                                        </span>
+                                    </div>
                                 </div>
-                                <div class="item-content">
-                                    <span>SKU: 729-51203-B</span>
-                                    <p>Twin Exhaust Pipe From Brandix Z54</p>
-                                    <span class="price">
-                                        <span class="new-price">$749.00</span>
-                                        <a href="#">
-                                            <img src="images/home/icons/supermarket (3).svg" alt="icon" />
-                                        </a>
-                                    </span>
+                                <div class="item">
+                                    <div class="item-heading">
+                                        <span class="rate">
+                                            4.5 <img src="images/home/icons/star (1).svg" alt="icon" />
+                                        </span>
+                                        <div class="clearfix"></div>
+                                        <img class="img-product" src="images/home/products/product-5-245x245.png" alt="product" />
+                                    </div>
+                                    <div class="item-content">
+                                        <span>SKU: 729-51203-B</span>
+                                        <p>Twin Exhaust Pipe From Brandix Z54</p>
+                                        <span class="price">
+                                            <span class="new-price">$749.00</span>
+                                            <a href="#">
+                                                <img src="images/home/icons/supermarket (3).svg" alt="icon" />
+                                            </a>
+                                        </span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="item">
-                                <div class="item-heading">
-                                    <span class="rate">
-                                        4.5 <img src="images/home/icons/star (1).svg" alt="icon" />
-                                    </span>
-                                    <div class="clearfix"></div>
-                                    <img class="img-product" src="images/home/products/product-5-245x245.png" alt="product" />
+                                <div class="item">
+                                    <div class="item-heading">
+                                        <span class="rate">
+                                            4.5 <img src="images/home/icons/star (1).svg" alt="icon" />
+                                        </span>
+                                        <div class="clearfix"></div>
+                                        <img class="img-product" src="images/home/products/product-5-245x245.png" alt="product" />
+                                    </div>
+                                    <div class="item-content">
+                                        <span>SKU: 729-51203-B</span>
+                                        <p>Twin Exhaust Pipe From Brandix Z54</p>
+                                        <span class="price">
+                                            <span class="new-price">$749.00</span>
+                                            <a href="#">
+                                                <img src="images/home/icons/supermarket (3).svg" alt="icon" />
+                                            </a>
+                                        </span>
+                                    </div>
                                 </div>
-                                <div class="item-content">
-                                    <span>SKU: 729-51203-B</span>
-                                    <p>Twin Exhaust Pipe From Brandix Z54</p>
-                                    <span class="price">
-                                        <span class="new-price">$749.00</span>
-                                        <a href="#">
-                                            <img src="images/home/icons/supermarket (3).svg" alt="icon" />
-                                        </a>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="item-heading">
-                                    <span class="rate">
-                                        4.5 <img src="images/home/icons/star (1).svg" alt="icon" />
-                                    </span>
-                                    <div class="clearfix"></div>
-                                    <img class="img-product" src="images/home/products/product-5-245x245.png" alt="product" />
-                                </div>
-                                <div class="item-content">
-                                    <span>SKU: 729-51203-B</span>
-                                    <p>Twin Exhaust Pipe From Brandix Z54</p>
-                                    <span class="price">
-                                        <span class="new-price">$749.00</span>
-                                        <a href="#">
-                                            <img src="images/home/icons/supermarket (3).svg" alt="icon" />
-                                        </a>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="item-heading">
-                                    <span class="rate">
-                                        4.5 <img src="images/home/icons/star (1).svg" alt="icon" />
-                                    </span>
-                                    <div class="clearfix"></div>
-                                    <img class="img-product" src="images/home/products/product-5-245x245.png" alt="product" />
-                                </div>
-                                <div class="item-content">
-                                    <span>SKU: 729-51203-B</span>
-                                    <p>Twin Exhaust Pipe From Brandix Z54</p>
-                                    <span class="price">
-                                        <span class="new-price">$749.00</span>
-                                        <a href="#">
-                                            <img src="images/home/icons/supermarket (3).svg" alt="icon" />
-                                        </a>
-                                    </span>
+                                <div class="item">
+                                    <div class="item-heading">
+                                        <span class="rate">
+                                            4.5 <img src="images/home/icons/star (1).svg" alt="icon" />
+                                        </span>
+                                        <div class="clearfix"></div>
+                                        <img class="img-product" src="images/home/products/product-5-245x245.png" alt="product" />
+                                    </div>
+                                    <div class="item-content">
+                                        <span>SKU: 729-51203-B</span>
+                                        <p>Twin Exhaust Pipe From Brandix Z54</p>
+                                        <span class="price">
+                                            <span class="new-price">$749.00</span>
+                                            <a href="#">
+                                                <img src="images/home/icons/supermarket (3).svg" alt="icon" />
+                                            </a>
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -409,117 +416,119 @@
             </div>
             <div class="deal-content">
                 <div class="container">
-                    <div id="deal" class="owl-carousel owl-theme">
-                        <div class="item">
-                            <div class="item-heading">
-                                <span class="rate">
-                                    4.5 <img src="images/home/icons/star (1).svg" alt="icon" />
-                                </span>
-                                <div class="clearfix"></div>
-                                <img class="img-product" src="images/home/products/product-5-245x245.png" alt="product" />
+                    <div class="sub-container">
+                        <div id="deal" class="owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="item-heading">
+                                    <span class="rate">
+                                        4.5 <img src="images/home/icons/star (1).svg" alt="icon" />
+                                    </span>
+                                    <div class="clearfix"></div>
+                                    <img class="img-product" src="images/home/products/product-5-245x245.png" alt="product" />
+                                </div>
+                                <div class="item-content">
+                                    <span>SKU: 729-51203-B</span>
+                                    <p>Twin Exhaust Pipe From Brandix Z54</p>
+                                    <span class="price">
+                                        <span class="last-price">$749.00</span>
+                                        <span class="new-price">$749.00</span>
+                                        <a href="#">
+                                            <img src="images/home/icons/supermarket (3).svg" alt="icon" />
+                                        </a>
+                                    </span>
+                                </div>
+                                <div class="item-footer">
+                                    <ul class="list-unstyled d-flex justify-content-around">
+                                        <li><span class="number">02</span> <span class="details">days<span></li>
+                                        <li><span class="number">33</span> <span class="details">hrs<span></li>
+                                        <li><span class="number">44</span> <span class="details">mins<span></li>
+                                        <li><span class="number">44</span> <span class="details">secs<span></li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="item-content">
-                                <span>SKU: 729-51203-B</span>
-                                <p>Twin Exhaust Pipe From Brandix Z54</p>
-                                <span class="price">
-                                    <span class="last-price">$749.00</span>
-                                    <span class="new-price">$749.00</span>
-                                    <a href="#">
-                                        <img src="images/home/icons/supermarket (3).svg" alt="icon" />
-                                    </a>
-                                </span>
+                            <div class="item">
+                                <div class="item-heading">
+                                    <span class="rate">
+                                        4.5 <img src="images/home/icons/star (1).svg" alt="icon" />
+                                    </span>
+                                    <div class="clearfix"></div>
+                                    <img class="img-product" src="images/home/products/product-5-245x245.png" alt="product" />
+                                </div>
+                                <div class="item-content">
+                                    <span>SKU: 729-51203-B</span>
+                                    <p>Twin Exhaust Pipe From Brandix Z54</p>
+                                    <span class="price">
+                                        <span class="last-price">$749.00</span>
+                                        <span class="new-price">$749.00</span>
+                                        <a href="#">
+                                            <img src="images/home/icons/supermarket (3).svg" alt="icon" />
+                                        </a>
+                                    </span>
+                                </div>
+                                <div class="item-footer">
+                                    <ul class="list-unstyled d-flex justify-content-around">
+                                        <li><span class="number">02</span> <span class="details">days<span></li>
+                                        <li><span class="number">33</span> <span class="details">hrs<span></li>
+                                        <li><span class="number">44</span> <span class="details">mins<span></li>
+                                        <li><span class="number">44</span> <span class="details">secs<span></li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="item-footer">
-                                <ul class="list-unstyled d-flex justify-content-around">
-                                    <li><span class="number">02</span> <span class="details">days<span></li>
-                                    <li><span class="number">33</span> <span class="details">hrs<span></li>
-                                    <li><span class="number">44</span> <span class="details">mins<span></li>
-                                    <li><span class="number">44</span> <span class="details">secs<span></li>
-                                </ul>
+                            <div class="item">
+                                <div class="item-heading">
+                                    <span class="rate">
+                                        4.5 <img src="images/home/icons/star (1).svg" alt="icon" />
+                                    </span>
+                                    <div class="clearfix"></div>
+                                    <img class="img-product" src="images/home/products/product-5-245x245.png" alt="product" />
+                                </div>
+                                <div class="item-content">
+                                    <span>SKU: 729-51203-B</span>
+                                    <p>Twin Exhaust Pipe From Brandix Z54</p>
+                                    <span class="price">
+                                        <span class="last-price">$749.00</span>
+                                        <span class="new-price">$749.00</span>
+                                        <a href="#">
+                                            <img src="images/home/icons/supermarket (3).svg" alt="icon" />
+                                        </a>
+                                    </span>
+                                </div>
+                                <div class="item-footer">
+                                    <ul class="list-unstyled d-flex justify-content-around">
+                                        <li><span class="number">02</span> <span class="details">days<span></li>
+                                        <li><span class="number">33</span> <span class="details">hrs<span></li>
+                                        <li><span class="number">44</span> <span class="details">mins<span></li>
+                                        <li><span class="number">44</span> <span class="details">secs<span></li>
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
-                        <div class="item">
-                            <div class="item-heading">
-                                <span class="rate">
-                                    4.5 <img src="images/home/icons/star (1).svg" alt="icon" />
-                                </span>
-                                <div class="clearfix"></div>
-                                <img class="img-product" src="images/home/products/product-5-245x245.png" alt="product" />
-                            </div>
-                            <div class="item-content">
-                                <span>SKU: 729-51203-B</span>
-                                <p>Twin Exhaust Pipe From Brandix Z54</p>
-                                <span class="price">
-                                    <span class="last-price">$749.00</span>
-                                    <span class="new-price">$749.00</span>
-                                    <a href="#">
-                                        <img src="images/home/icons/supermarket (3).svg" alt="icon" />
-                                    </a>
-                                </span>
-                            </div>
-                            <div class="item-footer">
-                                <ul class="list-unstyled d-flex justify-content-around">
-                                    <li><span class="number">02</span> <span class="details">days<span></li>
-                                    <li><span class="number">33</span> <span class="details">hrs<span></li>
-                                    <li><span class="number">44</span> <span class="details">mins<span></li>
-                                    <li><span class="number">44</span> <span class="details">secs<span></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="item-heading">
-                                <span class="rate">
-                                    4.5 <img src="images/home/icons/star (1).svg" alt="icon" />
-                                </span>
-                                <div class="clearfix"></div>
-                                <img class="img-product" src="images/home/products/product-5-245x245.png" alt="product" />
-                            </div>
-                            <div class="item-content">
-                                <span>SKU: 729-51203-B</span>
-                                <p>Twin Exhaust Pipe From Brandix Z54</p>
-                                <span class="price">
-                                    <span class="last-price">$749.00</span>
-                                    <span class="new-price">$749.00</span>
-                                    <a href="#">
-                                        <img src="images/home/icons/supermarket (3).svg" alt="icon" />
-                                    </a>
-                                </span>
-                            </div>
-                            <div class="item-footer">
-                                <ul class="list-unstyled d-flex justify-content-around">
-                                    <li><span class="number">02</span> <span class="details">days<span></li>
-                                    <li><span class="number">33</span> <span class="details">hrs<span></li>
-                                    <li><span class="number">44</span> <span class="details">mins<span></li>
-                                    <li><span class="number">44</span> <span class="details">secs<span></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="item-heading">
-                                <span class="rate">
-                                    4.5 <img src="images/home/icons/star (1).svg" alt="icon" />
-                                </span>
-                                <div class="clearfix"></div>
-                                <img class="img-product" src="images/home/products/product-5-245x245.png" alt="product" />
-                            </div>
-                            <div class="item-content">
-                                <span>SKU: 729-51203-B</span>
-                                <p>Twin Exhaust Pipe From Brandix Z54</p>
-                                <span class="price">
-                                    <span class="last-price">$749.00</span>
-                                    <span class="new-price">$749.00</span>
-                                    <a href="#">
-                                        <img src="images/home/icons/supermarket (3).svg" alt="icon" />
-                                    </a>
-                                </span>
-                            </div>
-                            <div class="item-footer">
-                                <ul class="list-unstyled d-flex justify-content-around">
-                                    <li><span class="number">02</span> <span class="details">days<span></li>
-                                    <li><span class="number">33</span> <span class="details">hrs<span></li>
-                                    <li><span class="number">44</span> <span class="details">mins<span></li>
-                                    <li><span class="number">44</span> <span class="details">secs<span></li>
-                                </ul>
+                            <div class="item">
+                                <div class="item-heading">
+                                    <span class="rate">
+                                        4.5 <img src="images/home/icons/star (1).svg" alt="icon" />
+                                    </span>
+                                    <div class="clearfix"></div>
+                                    <img class="img-product" src="images/home/products/product-5-245x245.png" alt="product" />
+                                </div>
+                                <div class="item-content">
+                                    <span>SKU: 729-51203-B</span>
+                                    <p>Twin Exhaust Pipe From Brandix Z54</p>
+                                    <span class="price">
+                                        <span class="last-price">$749.00</span>
+                                        <span class="new-price">$749.00</span>
+                                        <a href="#">
+                                            <img src="images/home/icons/supermarket (3).svg" alt="icon" />
+                                        </a>
+                                    </span>
+                                </div>
+                                <div class="item-footer">
+                                    <ul class="list-unstyled d-flex justify-content-around">
+                                        <li><span class="number">02</span> <span class="details">days<span></li>
+                                        <li><span class="number">33</span> <span class="details">hrs<span></li>
+                                        <li><span class="number">44</span> <span class="details">mins<span></li>
+                                        <li><span class="number">44</span> <span class="details">secs<span></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -850,9 +859,9 @@
         <footer>
             <!-- Start Info -->
             <section class="info">
-                <div class="container modfied-container">
+                <div class="container">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-lg-4">
                             <div class="newsletter">
                                 <h3>newsletter</h3>
                                 <p>Join 60.000+ subscribers and get a new discount<br>coupon on every Wednesday.</p>
@@ -862,7 +871,7 @@
                                 </form>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-lg-3">
                             <div class="get-app">
                                 <h3>get the app</h3>
                                 <p>Eg Parts App is now available on Google Play &<br>App Store. Get it now.</p>
@@ -872,34 +881,34 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-2">
-                            <div class="information">
-                                <div class="media">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                    <div class="media-body">
-                                      <h5 class="mt-0">Phone Number</h5>
-                                      <p>+20 000 1111 222</p>
-                                    </div>
-                                  </div>
-                                <div class="media">
-                                    <i class="far fa-envelope"></i>
-                                    <div class="media-body">
-                                      <h5 class="mt-0">Email Address</h5>
-                                      <p class="text-uppercase">egparts@MAIL.COM</p>
-                                    </div>
-                                  </div>
-                                <div class="media">
-                                    <i class="fas fa-mobile-alt"></i>
-                                    <div class="media-body">
-                                      <h5 class="mt-0">Our Location</h5>
-                                      <p>is simply dummy text of the printing and typesetting industry</p>
-                                    </div>
-                                  </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
+                        <div class="col-lg-5">
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-lg-6">
+                                    <div class="information">
+                                        <div class="media">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            <div class="media-body">
+                                              <h5 class="mt-0">Phone Number</h5>
+                                              <p>+20 000 1111 222</p>
+                                            </div>
+                                          </div>
+                                        <div class="media">
+                                            <i class="far fa-envelope"></i>
+                                            <div class="media-body">
+                                              <h5 class="mt-0">Email Address</h5>
+                                              <p class="text-uppercase">egparts@MAIL.COM</p>
+                                            </div>
+                                          </div>
+                                        <div class="media">
+                                            <i class="fas fa-mobile-alt"></i>
+                                            <div class="media-body">
+                                              <h5 class="mt-0">Our Location</h5>
+                                              <p>is simply dummy text of the printing and typesetting industry</p>
+                                            </div>
+                                          </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
                                     <div class="pages">
                                         <ul class="list-unstyled">
                                             <li><a href="#">about eg parts</a></li>
@@ -911,7 +920,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-lg-3">
                                     <div class="pages">
                                         <ul class="list-unstyled">
                                             <li><a href="#">contact us</a></li>
@@ -933,14 +942,14 @@
 
             <!-- Start Copyright -->
             <section class="copyright">
-                <div class="container modfied-container">
+                <div class="container">
                     <div class="row">
                         <div class="col-md-6  d-flex justify-content-center justify-content-md-start">© Copyright 2020 EG Parts</div>
                         <div class="col-md-6 ">
                             <ul class="list-unstyled d-flex justify-content-center justify-content-md-end">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li class="last"><a href="#"><i class="fab fa-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>
