@@ -6,17 +6,37 @@ header {
                 display: flex;
                 justify-content: flex-end;
                 margin-bottom: 0;
+                .row {
+                    margin-right: 0 !important;
+                }
+                @media #{$maxSmall} {
+                    justify-content: center;
+                }
+                @media #{$maxMobile} {
+                    .row {
+                        & > div {
+                            text-align: center;
+                            padding-left: 0;
+                            padding-right: 0;
+                            margin-left: 0 !important;
+                            margin-right: 0 !important;
+                        }
+                    }
+                }
                 li {
-                    margin-right: 17px;
-
+                    margin-right: 10px;
+                    &.last {
+                        margin-right: 0;
+                    }
                     a {
                         text-decoration: none;
                         text-transform: uppercase;
                         font-family: Arial;
                         font-size: 13.5px;
-                        font-weight: 600;
+                        font-weight: normal;
                         text-align: left;
                         color: #6c6b6c;
+                        opacity: 0.6;
                         img {
                             position: relative;
                             top: -2px;
@@ -24,6 +44,7 @@ header {
                     }
                     @media #{$maxMobile} {
                         margin-right: 5px;
+                        margin-bottom: 10px;
                         a {
                             font-size: 10px;
                         }
@@ -85,7 +106,7 @@ header {
                             font-size: 13.5px;
                             line-height: 1.25;
                             color: #268540 !important;
-                            font-weight: 600;
+                            font-weight: normal;
                             img:not(.down-arrow) {
                                 position: relative;
                                 top: -3px;

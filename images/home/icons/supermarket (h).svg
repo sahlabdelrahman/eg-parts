@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27.307" height="24" viewBox="0 0 27.307 24">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#268540}
+        </style>
+    </defs>
+    <g id="prefix__supermarket_3_" data-name="supermarket (3)">
+        <path id="prefix__Path_202" d="M8.8 16h14.507a.8.8 0 0 0 .769-.58l3.2-11.2a.8.8 0 0 0-.769-1.02H6.953L6.381.627A.8.8 0 0 0 5.6 0H.8a.8.8 0 1 0 0 1.6h4.158l2.888 13a2.4 2.4 0 0 0 .954 4.6h14.507a.8.8 0 0 0 0-1.6H8.8a.8.8 0 0 1 0-1.6zM25.446 4.8L22.7 14.4H9.442L7.308 4.8zm0 0" class="prefix__cls-1" data-name="Path 202"/>
+        <path id="prefix__Path_203" d="M150 362.4a2.4 2.4 0 1 0 2.4-2.4 2.4 2.4 0 0 0-2.4 2.4zm2.4-.8a.8.8 0 1 1-.8.8.8.8 0 0 1 .8-.8zm0 0" class="prefix__cls-1" data-name="Path 203" transform="translate(-142 -340.8)"/>
+        <path id="prefix__Path_204" d="M362 362.4a2.4 2.4 0 1 0 2.4-2.4 2.4 2.4 0 0 0-2.4 2.4zm2.4-.8a.8.8 0 1 1-.8.8.8.8 0 0 1 .8-.8zm0 0" class="prefix__cls-1" data-name="Path 204" transform="translate(-342.693 -340.8)"/>
+    </g>
+</svg>

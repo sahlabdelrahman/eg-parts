@@ -366,12 +366,13 @@ form {
             & > .row {
                 margin-left: 0;
                 margin-right: 0;
-                @media #{$maxMedium} {
+                @media (min-width: 576px) and (max-width: 991px) {
                     text-align: center;
                     margin-left: initial;
                     margin-right: initial;
                     & > div {
                         padding-left: 0;
+                        flex: 0 0 49%;
                     }
                 }
                 .first {
@@ -459,16 +460,16 @@ form {
     position: relative;
     .featured-heading {
       h2 {
-        font-family: &rob;
-        font-size: 45px;
+        font-family: $rob;
+        font-size: 53px;
         font-weight: 500;
         text-transform: uppercase;
         color: #5c5b5c;
         @media #{$maxMedium} {
-            font-size: 30px;
+            font-size: 37px;
         }
         @media #{$minLarge} and #{$maxLarge} {
-            font-size: 36px;       
+            font-size: 42.5px;       
         }
       }  
     }
@@ -481,7 +482,7 @@ form {
             li {
                 a {
                     font-family: $rob;
-                    font-size: 18px;
+                    font-size: 21px;
                     font-weight: normal;
                     color: #979797;
                     &.active {
@@ -500,7 +501,7 @@ form {
                 }
                 @media #{$minLarge} and #{$maxLarge} {
                     a {
-                        font-size: 14.5px;
+                        font-size: 17px;
                     }       
                 }
             }
