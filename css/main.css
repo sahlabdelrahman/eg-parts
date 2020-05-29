@@ -1167,7 +1167,7 @@ header nav .navbar-collapse .navbar-nav li a img:not(.down-arrow) {
 
 /* End New Arrivals */
 footer .info {
-  padding: 60px 0;
+  padding: 60px 0 40px 0;
   background-color: #5c5b5c;
 }
 @media (max-width: 991px) {
@@ -1182,7 +1182,7 @@ footer .info {
 }
 footer .info .newsletter h3 {
   font-family: "Roboto", sans-serif;
-  font-size: 11px;
+  font-size: 15px;
   font-weight: bold;
   color: #ffffff;
   text-transform: uppercase;
@@ -1233,7 +1233,7 @@ footer .info .newsletter form input[type=submit] {
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   footer .info .newsletter h3 {
-    font-size: 9px;
+    font-size: 12px;
   }
   footer .info .newsletter p {
     font-size: 9px;
@@ -1260,7 +1260,7 @@ footer .info .newsletter form input[type=submit] {
 }
 footer .info .get-app h3 {
   font-family: "Roboto", sans-serif;
-  font-size: 11px;
+  font-size: 15px;
   font-weight: bold;
   color: #ffffff;
   text-transform: uppercase;
@@ -1287,7 +1287,7 @@ footer .info .get-app .get-images img {
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   footer .info .get-app h3 {
-    font-size: 9px;
+    font-size: 12px;
   }
   footer .info .get-app p {
     font-size: 9px;
@@ -1304,7 +1304,6 @@ footer .info .get-app .get-images img {
 }
 footer .info .information .media i {
   color: #70b63e;
-  align-self: center;
   width: 13px;
   height: 18px;
   font-size: 20.5px;
@@ -1314,12 +1313,12 @@ footer .info .information .media .media-body {
 }
 footer .info .information .media .media-body h5 {
   font-family: Arial;
-  font-size: 8.8px;
+  font-size: 11px;
   font-weight: bold;
   color: #70b63e;
 }
 footer .info .information .media .media-body p {
-  font-size: 11px;
+  font-size: 10px;
   color: #fff;
   font-weight: bold;
 }
@@ -1333,11 +1332,15 @@ footer .info .information .media .media-body p {
     margin-left: 16px;
   }
   footer .info .information .media .media-body h5 {
-    font-size: 7.5px;
-  }
-  footer .info .information .media .media-body p {
     font-size: 9px;
   }
+  footer .info .information .media .media-body p {
+    font-size: 8px;
+  }
+}
+footer .info .pages {
+  position: relative;
+  top: -11px;
 }
 footer .info .pages ul {
   line-height: 1.8;
