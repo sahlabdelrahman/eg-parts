@@ -366,6 +366,15 @@ form {
             & > .row {
                 margin-left: 0;
                 margin-right: 0;
+                @media #{$maxMedium} {
+                    text-align: center;
+                    margin-left: initial;
+                    margin-right: initial;
+                    & > div {
+                        padding-left: 0;
+                    }
+
+                }
                 @media (min-width: 576px) and (max-width: 991px) {
                     text-align: center;
                     margin-left: initial;

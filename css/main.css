@@ -536,6 +536,16 @@ header nav .navbar-collapse .navbar-nav li a img:not(.down-arrow) {
   margin-left: 0;
   margin-right: 0;
 }
+@media (max-width: 991px) {
+  .offers .offers-content .other-products > .row {
+    text-align: center;
+    margin-left: initial;
+    margin-right: initial;
+  }
+  .offers .offers-content .other-products > .row > div {
+    padding-left: 0;
+  }
+}
 @media (min-width: 576px) and (max-width: 991px) {
   .offers .offers-content .other-products > .row {
     text-align: center;
