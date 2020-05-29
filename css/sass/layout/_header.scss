@@ -15,7 +15,6 @@ header {
                         font-family: Arial;
                         font-size: 13.5px;
                         font-weight: 600;
-                        line-height: 1.31;
                         text-align: left;
                         color: #6c6b6c;
                         img {
@@ -29,32 +28,42 @@ header {
                             font-size: 10px;
                         }
                     }
+                    @media #{$minLarge} and #{$maxLarge} {
+                            margin-right: 10px;
+                            a {
+                                font-size: 11px;
+                                img {
+                                    width: 15px;
+                                    height: 15px;
+                                }
+                            }
+                    }
                 }
             }
         }
     
         nav {
-            padding-top: 0;
-            padding-bottom: 0;
+            padding-top: 0 !important;
+            padding-bottom: 0 !important;
             .navbar-brand {
                 padding-top: 0;
                 padding-bottom: 0;
-                img:first-of-type {
-                    position: relative;
-                    top: 10px;
+                img {
+                    width: 220px;
+                    height: 80px;
                 }
                 @media #{$maxMobile} {
-                    img:last-of-type {
-                        width: 200px;
-                    }
-                }
-                @media (max-width: 374px) {
-                    img:last-of-type {
+                    img {
                         width: 150px;
                     }
                 }
+                @media #{$minLarge} and #{$maxLarge} {
+                    img {
+                        width: 180px;
+                    }
+                }
             }
-            @media #{$maxMobile} {
+            @media #{$maxMedium} {
                 .navbar-toggler  {
                     position: relative;
                     top: 5px;
@@ -63,9 +72,12 @@ header {
             .navbar-collapse {
                 .navbar-nav {
                     li {
-                        margin-right: 17px;
+                        margin-right: 5px;
                         &.last {
                             margin-right: 0;
+                            a {
+                                padding-right: 0;
+                            }
                         }
                         a {
                             text-transform: uppercase;
@@ -79,8 +91,31 @@ header {
                                 top: -3px;
                             }
                         }
-                        
+                        @media #{$minLarge} and #{$maxLarge} {
+                            a {
+                                font-size: 11px;
+                                img {
+                                    width: 18px;
+                                    height: 18px;
+                                    &.down-arrow {
+                                        width: 13px;
+                                        height: 13px;
+                                    }
+                                }
+                                img:not(.down-arrow) {
+                                    position: relative;
+                                    top: -2px;
+                                }
+                            }
+                        }
                     }
+                }
+                @media #{$minLarge} {
+                    height: 80px;  
+                    .navbar-nav {
+                        height: 100%;
+                        align-items: center;
+                    }  
                 }
             }
         }

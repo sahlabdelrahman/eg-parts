@@ -2,11 +2,11 @@ footer {
     .info {
         padding: 60px 0;
         background-color: #5c5b5c;
-        @media #{$maxSmall} {
+        @media #{$maxMedium} {
             padding: 50px 10px;
         }
         .newsletter {
-            @media #{$maxSmall} {
+            @media #{$maxMedium} {
                 margin-bottom: 30px;
             }
             h3 {
@@ -48,7 +48,7 @@ footer {
                     border-radius: 3.5px;
                     background-color: #70b63e;
                     color: #fff;
-                    @media #{$maxSmall} {
+                    @media #{$maxMedium} {
                         width: 221px;
                         margin-top: 20px;
                     }
@@ -57,9 +57,33 @@ footer {
                     }
                 }
             }
+            @media #{$minLarge} and #{$maxLarge} {
+                h3{
+                    font-size: 9px;
+                }
+                p{
+                    font-size: 9px;
+                }
+                form {
+                    input[type='email'] {
+                        width: 144px;
+                        height: 30px;
+                        padding: 8.5px 11px;
+                        border-radius: 3.5px;
+                        font-size: 9px;
+                    }
+                    input[type='submit'] {
+                        width: 89px;
+                        height: 30px;
+                        padding: 5.5px;
+                        border-radius: 2.5px;
+                        font-size: 9px;
+                    }
+                }
+            }
         }
         .get-app {
-            @media #{$maxSmall} {
+            @media #{$maxMedium} {
                 margin-bottom: 30px;
             }
             h3 {
@@ -79,7 +103,7 @@ footer {
                 img {
                     width: 145px;
                     height: 38.5px;
-                    @media #{$maxSmall} {
+                    @media #{$maxMedium} {
                         margin-bottom: 20px;
                     }
                     @media (min-width: 1200px) and (max-width: 1457px) {
@@ -87,9 +111,23 @@ footer {
                     }
                 }
             }
+            @media #{$minLarge} and #{$maxLarge} {
+                h3{
+                    font-size: 9px;
+                }
+                p{
+                    font-size: 9px;
+                }
+                .get-images {
+                    img {
+                        width: 92px;
+                        height: 25px;
+                    }
+                }
+            }
         }
         .information {
-            @media #{$maxSmall} {
+            @media #{$maxMedium} {
                 margin-bottom: 30px;
             }
             .media {
@@ -115,11 +153,27 @@ footer {
                         font-weight: bold;
                     }
                 }
+                @media #{$minLarge} and #{$maxLarge} {
+                    i {
+                        width: 10.5px;
+                        height: 14.5px;
+                        font-size: 16.5px;
+                    }
+                    .media-body {
+                        margin-left: 16px;
+                        h5 {
+                            font-size: 7.5px;
+                        }
+                        p {
+                            font-size: 9px;
+                        }
+                    }
+                }
             }
         }
         .pages {
             ul {
-                line-height: 2;
+                line-height: 1.8;
                 li {
                     a {
                         text-decoration: none;
@@ -128,6 +182,14 @@ footer {
                         font-size: 11px;
                         font-weight: bold;
                         color: #ffffff;
+                    }
+                }
+                @media #{$minLarge} and #{$maxLarge} {
+                    line-height: 1.3;
+                    li {
+                        a {
+                            font-size: 8.5px;
+                        }
                     }
                 }
             }
@@ -142,7 +204,7 @@ footer {
         font-size: 15px;
         color: #ffffff;
             ul {
-                @media #{$maxSmall} {
+                @media #{$maxMedium} {
                     margin-top: 20px;
                 }
                 li {
@@ -156,6 +218,9 @@ footer {
                     }
                 }
             }
-
+            @media #{$minLarge} and #{$maxLarge} {
+                padding: 13.5px 0 5px 0;
+                font-size: 12px;
+            }
     }
 }
